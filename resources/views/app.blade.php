@@ -7,14 +7,11 @@
     <title>Laravel Livewire Poll</title>
 
     @vite('resources/css/app.css')
-
-
-    @livewireStyles
 </head>
 
 <body class="container mx-auto mt-10 mb-10 max-w-lg">
 
-@livewireScripts
+@livewire('create-poll')
 </body>
 
 </html>
